@@ -79,42 +79,66 @@
       <div class ="row">
         <div class = "jumbotron">
           <br> &nbsp
-          <br> &nbsp
-          <h1>Hi, I'm Brittany</h1>
-          <p>Engineer. Leader. Thinker.
-          <br> &nbsp
-          <br> &nbsp
-          <br> &nbsp
-           <a href = "aboutMe.html">
-            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">More about me</button>
-          </a>
-          <br> &nbsp
-          </p>
+          <h1>Engineer. Leader. Thinker.
+          </h1>
+          <p> Section about myself, experiences, and goals. </p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at consequat dolor. Vivamus feugiat urna turpis, ut dictum tellus blandit quis. Quisque ut cursus erat. Suspendisse mi lacus, lobortis nec eros ac, pellentesque gravida enim. In ornare quis orci eget viverra. Mauris ut laoreet arcu. Aliquam non nisi convallis, accumsan orci sed, vehicula ante. Feel free to take a look at my <a href = "resume2.html">resume.</a></p>
+          <!-- will be on the bottom right -->
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#hire">Have me join your team!</button>
+
+      </div>
+    </div>
+  </section>
+
+  <section class = "about">
+    <div class = "container">
+      <div class = "row">
+        <div class="col-xs-12 col-sm-4 ">
+          <h3>Skills</h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at consequat dolor. Vivamus feugiat urna turpis, ut dictum tellus blandit quis. Quisque ut cursus erat.</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-4 ">
+          <h3>Relevant Coursework</h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at consequat dolor. Vivamus feugiat urna turpis, ut dictum tellus blandit quis. Quisque ut cursus erat.</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-4 ">
+          <h3>Honors</h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at consequat dolor. Vivamus feugiat urna turpis, ut dictum tellus blandit quis. Quisque ut cursus erat.</p>
+        </div>
+      </div> 
+    </div>
+  </section>
+
+<!-- Modal -->
+<div class="modal fade" id="hire" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Submit offer of employment</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="NameInput">Company Name</label>
+              <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Enter your company name">
+            </div>
+            <div class="form-group">
+              <label for="NameInput">Name</label>
+              <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Enter your name">
+            </div>
+           <div class="form-group">
+              <label for="AddressInput">Offer</label>
+              <p class="help-block">We would love to offer you a position at our company, please feel free to contact us so we can discuss details.</p>
+            </div>
+            <button type="submit" class="btn btn-default">Send offer!</button>
+          </form>
         </div>
       </div>
     </div>
-  </section>
-
-  <section class = "sections">
-    <div class = "container">
-    <div class ="row">
-      <div class="col-xs-12 col-sm-4 ">
-        <h3>Projects</h3>
-        <a href ="projects.html"><img class = "img-responsive" src="http://placehold.it/250x145"></a>
-      </div>
-
-      <div class="col-xs-12 col-sm-4 ">
-        <h3>Research</h3>
-        <a href ="research.html"><img class = "img-responsive" src="http://placehold.it/250x145"></a>
-      </div>
-
-      <div class="col-xs-12 col-sm-4">
-        <h3>Resume</h3>
-        <a href ="resume2.html"><img class = "img-responsive" src="http://placehold.it/250x145"></a>
-      </div>
-    </div>
   </div>
-  </section>
 <!-- Included from bootstrap example -->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>

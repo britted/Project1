@@ -1,0 +1,14 @@
+#index .container-fluid .jumbotron{
+	height: 650px;
+	background-image: url("header.jpg");
+	color:white;
+}
+
+img {
+  border: 1px solid black;
+}
+
+#project .col-xs-12 .col-sm-3 {
+	border-width: 2px;
+	border-color: red;
+}

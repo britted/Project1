@@ -13,7 +13,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom -->
     <link href="css/custom.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/resume2.css">
+   
 <!-- included from initial example -->
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,9 +21,9 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <link href='http://fonts.googleapis.com/css?family=Exo|Muli' rel='stylesheet' type='text/css'>
 </head>
-<body>
+<body id = "resume">
 	
 	    <!-- Nav bar -->
   <div class="navbar navbar-default navbar-fixed-top">
@@ -38,37 +38,23 @@
         <ul class="nav navbar-nav navbar-right nav-tabs" role = "tablist">
           <li> 
             <a href = "index.html" alt = "Home"> Home
-             <!--  <button type="button" class="btn btn-default" aria-label="Left Align">
-                <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-              </button> -->
             </a>
           </li>
           <li>
             <a href = "aboutMe.html" alt = "About Me"> About Me
-              <!-- <button type="button" class="btn btn-default" aria-label="Left Align">
-                <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
-              </button> -->
+
             </a>
           </li>
           <li>
             <a href = "projects.html" alt = "Projects"> Projects
-              <!-- <button type="button" class="btn btn-default" aria-label="Left Align">
-                <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
-              </button> -->
             </a>
           </li>
           <li>
             <a href = "research.html" alt = "Research"> Research
-             <!--  <button type="button" class="btn btn-default" aria-label="Left Align">
-                <span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>
-              </button> -->
             </a>
           </li>
           <li>
             <a href = "contact.html"> Contact
-              <!-- <button type="button" class="btn btn-default" aria-label="Left Align">
-                <span class="glyphicon glyphicon-send" aria-hidden="true"></span>
-              </button> -->
             </a>
           </li>
         </ul>
@@ -76,13 +62,19 @@
     </div>
   </div>
 
-	<header style = "padding-top:100px">
-		<h1>Brittany S.P. Edwards</h1>
-		<br><a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile" target ="_blank">LinkedIn Profile</a>
-	</header>
+  	<div class = "container">
+  		<div class = "row heading">
+  			<br>&nbsp
+  			<br>&nbsp
+			<h1>Brittany S.P. Edwards</h1>
+			<br><a href="https://www.linkedin.com/profile/public-profile-settings?trk=prof-edit-edit-public_profile" target ="_blank">LinkedIn Profile</a>
+		</div>
+	</div>
     <!-- Nav bar -->
   
-	<div class = "info">
+	<div class = "container">
+		<div class= "row">
+			<div class = "col-xs-12 col-md-3 firstSec">
 		<h3> About Me </h3>
 		<p>A hard-working engineer with experience in research and client services. I am looking to influence people’s lives through technological mediums while practicing and enhancing my technical and business analysis skills, and to continue gaining experience. Through my course study I have learned how to model and analyze systems, and how to create projects using various programming languages.</p>
 		<p><b>Current Address:</b> 6255 Delmar Avenue, Apartment 213C St. Louis, MO 63130
@@ -116,9 +108,8 @@
 				<br>Introduction to Digital Logic and Design
 				</p>
 			</div>
-<!-- </ul>
-<ul class = "two" style = "list-style-type: none"> -->
-			<div class = "work">
+
+			<div class = "col-xs-12 col-md-9 secondSec">
 				<h3>Job/Internship Experience</h3>
 				<p><b>Credit Suisse</b> 
 				<br><i>Summer IT Analyst</i>
@@ -190,10 +181,15 @@
 
 				</ul>
 			</div>
+		</div>
+	</div>
+			
 <!-- </ul> -->
 <!-- 
 <ul class = "three" style = "list-style-type: none"> -->
-			<div class = "international">
+	<div class = "container">
+		<div class = "row">
+			<div class = "col-xs-12 col-md-4 thirdSec">
 				<h3>International Experiences</h3>
 				<p><b>University of Queensland</b> - <i>Study Abroad</i>
 				<br>Spring 2014
@@ -201,11 +197,9 @@
 				<br>July 2013 - August 2013
 				<br><b>NSLI-Y Study Abroad Program</b> - <i>Cultural Ambassador/Student </i> 
 				<br>Summer 2010</p>
-			</div>					
-<!-- </ul>
+			</div>	
 
-<ul class = "four" style = "list-style-type: none"> -->
-			<div class = "activities">
+			<div class = "col-xs-12 col-md-4">
 				<h3>Activities</h3>
 				<p><b>Mortar Board Senior Honor Society</b> - <i>Treasurer</i> 
 				<br>Fall 2014 - Present
@@ -215,16 +209,15 @@
 				<br>Fall 2012 - Present
 				<br><b>National Society of Black Engineers</b> - <i>Academic Excellence Chair</i></p>
 			</div>
-				
-<!-- </ul>
 
-<ul class = "five" style = "list-style-type: none"> -->
-			<div class = "skills">
+			<div class = "col-xs-12 col-md-4">
 				<h3>Skills</h3>
 				<p><b>Computer:</b> Expert proficiency in Microsoft Office (Word, Excel, PowerPoint, Outlook, etc.) intermediate proficiency in Java and MATLAB basic proficiency in Photoshop, Labview, and R. Extremely Skilled in social networking sites (Twitter, Facebook, Instagram, Tumblr, Pinterest, LinkedIn)
 				<br><b>Language:</b> Familiar with Mandarin Chinese
 				<br><b>Laboratory:</b> Familiar with titration, pipetting, and measuring techniques
 			</div>
+		</div>
+	</div>
 				
 <!-- </ul> -->
 

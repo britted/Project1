@@ -60,6 +60,11 @@ img {
 .navbar-default .navbar-nav .active {
   background-color: #351938;
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
 #index .link{
   text-align: center;
   color: white;
